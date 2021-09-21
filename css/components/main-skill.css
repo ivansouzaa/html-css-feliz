@@ -1,0 +1,21 @@
+.main-skill {
+    display: flex;
+    align-items: center;
+    font-family: "Fira Code", sans-serif;
+    font-size: 25px;
+    color: #FFF;
+}
+
+.main-skill .icon {
+    margin-right: 25px;
+}
+
+.main-skill .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-skill .title {
+    margin-bottom: 16px;
+}
