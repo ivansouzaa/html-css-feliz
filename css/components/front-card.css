@@ -1,0 +1,14 @@
+.front-card{
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.face-front {
+    width: 230px;
+    height: 245px;
+    background-color: #1D1D29;
+    box-shadow: 10px 10px 0 #565656;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,18 @@
+.card {
+    position: relative;
+    height: 245px;
+    width: 230px;
+    margin: 5px;
+    perspective: 1000px;
+    margin-right: 30px;
+    margin-left: 15px;
+}
+
+.card:hover .flip {
+    transform: rotateY(180deg);
+}
+
+.card .flip {
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}

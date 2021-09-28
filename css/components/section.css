@@ -2,9 +2,14 @@
     background-color: #E74C3C;
     padding-top: 50px;
     padding-bottom: 100px;
-    border-bottom: 10px solid #000;
+    border-bottom: 10px solid #505D66;
 }
 
 .section .main-title {
     margin-bottom: 60px;
+}
+
+.section.-variation {
+    background-color: #000;
+    border-bottom: 10px solid #E74C3C;
 }
