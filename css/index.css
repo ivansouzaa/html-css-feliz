@@ -2,7 +2,42 @@ nav {
     text-align: right;
 }
 
+.logo {
+    width: 169px;
+    height: auto;
+    max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.node-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.node-card .title {
+    font-family: "Fira Code", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: tomato;
+    margin-bottom: 15px;
+}
 
 
 
+
+
+
+.carrosel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo:hover {
+    -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);   
+}
 

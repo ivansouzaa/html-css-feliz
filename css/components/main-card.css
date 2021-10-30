@@ -1,4 +1,4 @@
-.card {
+.main-card {
     position: relative;
     height: 245px;
     width: 230px;
@@ -8,11 +8,11 @@
     margin-left: 15px;
 }
 
-.card:hover .flip {
+.main-card:hover .flip {
     transform: rotateY(180deg);
 }
 
-.card .flip {
+.main-card .flip {
     transition: transform 0.5s;
     transform-style: preserve-3d;
 }
